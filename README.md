@@ -1,3 +1,10 @@
+# Express-API-FriendlyPlaces
+
+A express database  project with the ultimate goal to work in pair with the actual website, the purpose of the database is to offer the unique information need it to work with the website which is to store the places, which unique name, description, location and address of the place and show around the user of the website.
+
+
+## Link to the Website 
+
 ## Structure
 
 Dependencies are stored in [`package.json`](package.json).
@@ -9,32 +16,25 @@ follow the pattern established here with `exampleRoutes` and `userRoutes`. If
 you want to add any middlewares to your app, do that here.
 
 The `app` directory contains models and route files. Models are simply Mongoose
-models. To create your own, follow the patterns established in
-`app/models/example.js`. Route files are somewhat similar to controllers in
+models.. Route files are somewhat similar to controllers in
 Rails, but they cover more functionality, including serialization and deciding
 which HTTP verbs to accept and what to do with them.
 
 The `config` directory holds just `db.js`, which is where you specify the name
-and URL of your database.
+and URL of my database.
 
 The `lib` directory is for code that will be used in other places in the
 application. The token authentication code is stored in `lib/auth.js`. The
 other files in `lib` deal with error handling. `custom_errors.js` is where all
-the different custom classes of errors are created. If you need some other kind
-of error message, you can add it here. There are also some functions defined
-here that are used elsewhere to check for errors. `lib/error_handler.js` is a
+the different custom classes of errors are created. `lib/error_handler.js` is a
 function that will be used in all your `.catch`es. It catches errors, and sets
 the response status code based on what type of error got thrown.
-
-You probably will only need to interact with files in `app/models`,
-`app/routes`, and `server.js`. You'll need to edit `db/config.js` just once,
-to change the name of your app.
 
 
 ## API
 
 Scripts are included in [`curl-scripts`](curl-scripts) to test built-in actions.
-Add your own scripts to test your custom API.
+My own scripts to test my custom API.
 
 ### Authentication
 
@@ -42,8 +42,8 @@ Add your own scripts to test your custom API.
 |--------|------------------------|-------------------|
 | POST   | `/sign-up`             | `users#signup`    |
 | POST   | `/sign-in`             | `users#signin`    |
-| PATCH  | `/change-password/` | `users#changepw`  |
-| DELETE | `/sign-out/`        | `users#signout`   |
+| PATCH  | `/change-password/`    | `users#changepw`  |
+| DELETE | `/sign-out/`           | `users#signout`   |
 
 #### POST /sign-up
 
@@ -157,6 +157,17 @@ Response:
 ```md
 HTTP/1.1 204 No Content
 ```
+
+
+### User Stories 
+
+- As a user I want to sign in/up
+- As a user I want to change password 
+- As a user I want to see two forms of Sign Up or Sign In
+- As a user I want to see cool animation of clicking button 
+- As a user I want to have unique experience 
+
+
 
 ## [License](LICENSE)
 
