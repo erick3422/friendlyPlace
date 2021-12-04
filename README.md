@@ -161,11 +161,11 @@ HTTP/1.1 204 No Content
 
 ### User Stories 
 
-- As a user I want to sign in/up
-- As a user I want to change password 
-- As a user I want to see two forms of Sign Up or Sign In
-- As a user I want to see cool animation of clicking button 
-- As a user I want to have unique experience 
+- As a user I want to sign in/up.
+- As a user I want to change password.
+- As a user I want to see two forms of Sign Up or Sign In.
+- As a user I want to see cool animation of clicking button.
+- As a user I want to have unique experience.
 
 
 
