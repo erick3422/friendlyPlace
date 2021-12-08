@@ -52,7 +52,7 @@ router.get('/places/:id', requireToken, (req, res, next) => {
 // POST /examples
 router.post('/places', requireToken, (req, res, next) => {
   // set owner of new example to be current user
-  req.body.places.owner = req.user.id
+  req.body.place.owner = req.user.id
 
   places.create(req.body.places)
     // respond to successful `create` with status 201 and JSON of new "example"
