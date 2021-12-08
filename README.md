@@ -4,6 +4,7 @@ A express database  project with the ultimate goal to work in pair with the actu
 
 
 ## Link to the Website 
+https://erick3422.github.io/friendlyPlaces-App-Client/
 
 ## Structure
 
